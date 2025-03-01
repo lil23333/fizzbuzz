@@ -1,0 +1,10 @@
+function fizzbuzz (n) {
+    let arr = [];
+    for (let i = 1; i <= n; i++) {
+        arr.push(i); }
+    arr.forEach(i=> {
+        if (i % 3 == 0) i = 'fizz';
+        if (i % 5 == 0) i = 'buzz';
+        console.log(i);
+    });
+}
